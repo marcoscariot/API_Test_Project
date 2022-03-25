@@ -24,8 +24,8 @@ public class BarrigaTest extends BaseTest { //Extendido BaseTest da classe CORE.
     @Before //Vai instanciar 1x antes de cada 1 dos testes. Vai fazer o login e vai pro método depois
     public void login() {
         Map<String, String> login = new HashMap<>();
-        login.put("email", "marco.scariot@gmail.com"); //Criar a prória conta em https://seubarriga.wcaquino.me/cadastro
-        login.put("senha", "crie_a_sua");
+        login.put("email", "seu-email-aqui"); //Criar a prória conta em https://seubarriga.wcaquino.me/cadastro
+        login.put("senha", "crie-a-sua-conta");
 
         //Extrair o token
         TOKEN = given()
